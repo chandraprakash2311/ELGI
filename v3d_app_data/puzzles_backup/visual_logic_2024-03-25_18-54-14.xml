@@ -1,0 +1,51 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="552" scrolly="301" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="546" scrolly="301" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="addHTMLElement" id="ZZU3w1o_W1#RSRMFq(tz" x="-610" y="-310">
+      <field name="ELEMENT">button</field>
+      <field name="MODE">TO</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <shadow type="text" id="?jN#:]zl80?P0h-$!V!q">
+          <field name="TEXT">red</field>
+        </shadow>
+      </value>
+      <value name="TARGET_ID">
+        <shadow type="DOMObjectSelector" id="y`Fo~2:5@qSQ0kLP7J9K">
+          <field name="DOM_OBJECT">CONTAINER</field>
+        </shadow>
+      </value>
+      <next>
+        <block type="createCSSRule" id="1t[2a=sieH}I_}{HP}@d">
+          <field name="PARENT">TRUE</field>
+          <value name="CSS_RULE">
+            <shadow type="text" id="EF|92|`RszY;)vY08$$/">
+              <field name="TEXT">red</field>
+            </shadow>
+          </value>
+          <value name="CSS_RULE_CONT">
+            <shadow type="text" id="A=N3cv|VfD2jy@ZA0ww(">
+              <field name="TEXT">background-color: red;</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="createCSSRule" id="s?gi82,u~v!or(/%izgz">
+              <field name="PARENT">TRUE</field>
+              <value name="CSS_RULE">
+                <shadow type="text" id="J,$dp1lsG=tZZK/I[;6%">
+                  <field name="TEXT">.myClass</field>
+                </shadow>
+              </value>
+              <value name="CSS_RULE_CONT">
+                <shadow type="text" id="qv5:U7#ll,,pnV9^_2K#">
+                  <field name="TEXT">color: red;</field>
+                </shadow>
+              </value>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <editorsettings viewport-x="750" viewport-y="28" viewport-w="512" viewport-h="339" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
