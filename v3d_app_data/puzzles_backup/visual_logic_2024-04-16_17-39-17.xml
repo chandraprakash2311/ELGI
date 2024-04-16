@@ -179,12 +179,6 @@
         </block>
       </next>
     </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="variables_set" id="B-w)+0U^f9^m7xY9zPjU" x="90" y="-150">
-      <field name="VAR" id="@#RV7-;8ntnl?RFK7}R-">loc</field>
-      <value name="VALUE">
-        <block type="dictCreateEmpty" id=",k/akUZ=QQi7-3.tJay)"/>
-      </value>
-    </block>
     <block xmlns="https://developers.google.com/blockly/xml" type="hide" id="%p)Q{Uudb2k?T(ANR%)/" x="-750" y="-90">
       <value name="VALUE">
         <shadow type="objectList" id="yU){iNwmbmWhNlKMZhQ%">
